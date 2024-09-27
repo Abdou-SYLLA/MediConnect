@@ -14,9 +14,7 @@ body {
 
 /* Container */
 .container {
-    width: 98%;
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,20 +23,23 @@ body {
 /* Header */
 header {
     background-color: #fff;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     position: relative;
-    z-index: 10;
     display: flex;
 }
 
+
 .logo img {
-    width: 100px;
+    width: 200px;
     height: auto;
+    float: left;
+    padding-left: 0;
 }
 
 nav {
-    flex-grow: 1;
+    flex-grow: 4;
     text-align: center;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -153,7 +154,7 @@ footer {
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* Responsive Design */
